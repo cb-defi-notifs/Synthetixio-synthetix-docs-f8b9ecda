@@ -2,13 +2,13 @@
 
 ## Description
 
-**Source:** [contracts/migrations/Migration_NaosOptimism.sol](https://github.com/Synthetixio/synthetix/tree/v2.90.2-alpha/contracts/migrations/Migration_NaosOptimism.sol)
+**Source:** [contracts/migrations/Migration_AljanahOptimism.sol](https://github.com/Synthetixio/synthetix/tree/v2.101.2/contracts/migrations/Migration_AljanahOptimism.sol)
 
 ## Views
 
 ### `CONTRACT_NAME`
 
-<sub>[Source](https://github.com/Synthetixio/synthetix/tree/v2.90.2-alpha/contracts/migrations/Migration_NaosOptimism.sol#L13)</sub>
+<sub>[Source](https://github.com/Synthetixio/synthetix/tree/v2.101.2/contracts/migrations/Migration_AljanahOptimism.sol#L14)</sub>
 
 ??? example "Details"
 

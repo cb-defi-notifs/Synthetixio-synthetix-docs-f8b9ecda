@@ -2,6 +2,192 @@
 
     Imported from https://github.com/Synthetixio/synthetix/releases
 
+# Acrab (v2.101.2)
+
+**Published**: Apr 18, 2024
+
+**Codebase**: [v2.101.2](https://github.com/Synthetixio/synthetix/tree/v2.101.2)
+
+> ## Release notes
+>
+> Deprecates classic exchanges (and atomic exchanges) of all non-sUSD synths, in favor of a new DynamicSynthRedeemer contract that allows for synth redemption at the Chainlink price multiplied by a discount rate.
+
+[SIP-2059: Legacy Spot Synth Migration](https://sips.synthetix.io/sips/sip-2059/)
+
+> Audit: https://iosiro.com/audits/synthetix-acrab-release-smart-contract-audit
+
+---
+
+# Aljanah (v2.100.0)
+
+**Published**: Mar 13, 2024
+
+**Codebase**: [v2.100.0](https://github.com/Synthetixio/synthetix/tree/v2.100.0)
+
+> ## Release notes
+>
+> Grants a few special permissions to the `LegacyMarket` contract, the facilitator of the migration of collateral and debt to V3.
+
+[SIP-299: Minor upgrades to v2x to support V3 Migration](https://sips.synthetix.io/sips/sip-299/)
+
+> Audit: https://iosiro.com/audits/synthetix-alphecca-release-smart-contract-audit
+
+---
+
+# Markab (v2.99.1)
+
+**Published**: Mar 5, 2024
+
+**Codebase**: [v2.99.1](https://github.com/Synthetixio/synthetix/tree/v2.99.1)
+
+> ## Release notes
+
+- Perps V2 new market(s):
+  - CVX (SIP-2052)
+  - JUP (SIP-2053)
+  - PENDLE (SIP-2054)
+  - STRK (SIP-2056)
+
+[SIP-2052: List CVX on SNX Perps v2 ](https://sips.synthetix.io/sips/sip-2052/)
+[SIP-2053: List JUP on SNX Perps v2](https://sips.synthetix.io/sips/sip-2053/)
+[SIP-2054: List PENDLE on SNX Perps v2](https://sips.synthetix.io/sips/sip-2054/)
+[SIP-2056: List STRK on SNX Perps v2](https://sips.synthetix.io/sips/sip-2056/)
+
+---
+
+# Markeb (v2.98.2)
+
+**Published**: Jan 30, 2024
+
+**Codebase**: [v2.98.2](https://github.com/Synthetixio/synthetix/tree/v2.98.2)
+
+> ## Release notes
+
+- Perps V2 new market(s):
+  - ORDI (SIP-2044)
+  - JITO (SIP-2045)
+- Deprecated `sINR` synth
+
+[SIP-2044: List ORDI on Synthetix Perps](https://sips.synthetix.io/sips/sip-2044/)
+[SIP-2045: List JITO on Synthetix Perps](https://sips.synthetix.io/sips/sip-2045/)
+[SIP-2050: Deprecate sINR Synth](https://sips.synthetix.io/sips/sip-2050/)
+
+---
+
+# Aludra (v2.97.3)
+
+**Published**: Dec 6, 2023
+
+**Codebase**: [v2.97.3](https://github.com/Synthetixio/synthetix/tree/v2.97.3)
+
+> ## Release notes
+
+- Perps V2 new market(s):
+  - TIA (SIP-2035)
+  - IMX and TRB (SIP-2037)
+  - MEME (SIP-2039)
+  - ANKR, FET and GRT (SIP-2040)
+  - PYTH (SIP-2041)
+  - BONK (SIP-2042)
+
+[SIP-2035: List TIA on Synthetix Perps](https://sips.synthetix.io/sips/sip-2035/)
+[SIP-2037: List IMX amd TRB on Synthetix Perps](https://sips.synthetix.io/sips/sip-2037/)
+[SIP-2039: List MEME on Synthetix Perps](https://sips.synthetix.io/sips/sip-2039/)
+[SIP-2040: List ANKR, FET, GRT on Synthetix Perps](https://sips.synthetix.io/sips/sip-2040/)
+[SIP-2041: List PYTH on Synthetix Perps](https://sips.synthetix.io/sips/sip-2041/)
+[SIP-2042: List BONK on Synthetix Perps](https://sips.synthetix.io/sips/sip-2042/)
+
+---
+
+# Phecda (v2.96.1)
+
+**Published**: Oct 23, 2023
+
+**Codebase**: [v2.96.1](https://github.com/Synthetixio/synthetix/tree/v2.96.1)
+
+> ## Release notes
+
+- Deploy new rewards distributor to fix SIP-2036
+
+[SIP-2036: Revert Inflation Mint on L2 Distribution Failure](https://sips.synthetix.io/sips/sip-2036/)
+
+---
+
+# Sabik (v2.94.1)
+
+**Published**: Sep 8, 2023
+
+**Codebase**: [v2.94.1](https://github.com/Synthetixio/synthetix/tree/v2.94.1)
+
+> ## Release notes
+
+- Perps V2 new market(s):
+  - RUNE, SUSHI, ZEC, XTZ, UMA, ENJ, ICP, XLM, 1INCH, EOS, CELO, ALGO, ZRX (SIP-2032)
+  - BAL, FXS, KNC, RNDR, ONE, PERP and ZIL (SIP-2033)
+  - SEI (SIP-2029)
+  - stETHETH (SIP-2031)
+
+[SIP-2029: Add SEI to Perps V2](https://sips.synthetix.io/sips/sip-2029/)
+[SIP-2031: Add stETH/ETH on Synthetix Perps](https://sips.synthetix.io/sips/sip-2031/)
+[SIP-2032: List all current DYDX assets on Perps v2](https://sips.synthetix.io/sips/sip-2032/)
+[SIP-2033: List assets with Chainlink and Pyth feed deployed on Perps V2](https://sips.synthetix.io/sips/sip-2033/)
+
+---
+
+# Scheat (v2.93.1)
+
+**Published**: Aug 9, 2023
+
+**Codebase**: [v2.93.1](https://github.com/Synthetixio/synthetix/tree/v2.93.1)
+
+> ## Release notes
+
+- Introduces new market for: USDT
+
+[SIP-2030: Add USDT to Perps V2](https://sips.synthetix.io/sips/sip-2030/)
+
+---
+
+# Enif (v2.92.1)
+
+**Published**: Aug 2, 2023
+
+**Codebase**: [v2.92.1](https://github.com/Synthetixio/synthetix/tree/v2.92.1)
+
+> ## Release notes
+
+- Introduces new market for: WLD
+
+[SIP-2028: Add WLD to Perps V2](https://sips.synthetix.io/sips/sip-2028/)
+
+---
+
+# Ankaa (v2.91.1)
+
+**Published**: Jul 28, 2023
+
+**Codebase**: [v2.91.1](https://github.com/Synthetixio/synthetix/tree/v2.91.1)
+
+>
+
+## Release notes
+
+- Introduces new markets for: ETHBTC, XMR, ETC, COMP, MAV, YFI, MKR, RPL
+
+[SIP-2009: Adding ETH/BTC ratio to Synthetix Perps V2](https://sips.synthetix.io/sips/sip-2009/)
+
+[SIP-2023: Add XMR to Perps V2](https://sips.synthetix.io/sips/sip-2023/)
+
+[SIP-2024: Add ETC and COMP to Perps V2](https://sips.synthetix.io/sips/sip-2024/)
+
+[SIP-2025: Add MAV to Perps V2](https://sips.synthetix.io/sips/sip-2025/)
+
+[SIP-2026: Add YFI and MKR to Perps V2](https://sips.synthetix.io/sips/sip-2026/)
+
+[SIP-2027: Add RPL to Perps V2](https://sips.synthetix.io/sips/sip-2027/)
+
+---
+
 # Merak (v2.90.1)
 
 **Published**: Jun 14, 2023
